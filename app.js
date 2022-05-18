@@ -45,7 +45,8 @@ class Book {
       container.insertBefore(div, form);
   
       // Vanish in 3 seconds
-      setTimeout(() => document.querySelector('.alert').remove(), 3000);
+      setTimeout(() => document.querySelector('.danger').remove(), 3000);
+      setTimeout(() => document.querySelector('.success').remove(), 3000);
     }
   
     static clearFields() {
