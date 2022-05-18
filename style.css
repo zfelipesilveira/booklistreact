@@ -1,20 +1,34 @@
-.btn{
+.btn {
     background-color: brown;
     color: aliceblue;
     width: 50%;
     margin: auto 0;
-    
+
 
 }
 
-.form-group{
+.success {
+    color: seagreen;
+}
+
+.danger {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color:cornsilk;
+    background-color:crimson;
+    border-color: crimson;
+
+}
+
+
+.form-group {
     margin-bottom: 50px;
-    
-    
+
+
 }
 
-.text{
+.text {
     color: brown;
 }
-
-
